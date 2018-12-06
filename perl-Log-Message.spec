@@ -4,7 +4,7 @@
 #
 Name     : perl-Log-Message
 Version  : 0.08
-Release  : 5
+Release  : 6
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Log-Message-0.08.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Log-Message-0.08.tar.gz
 Summary  : 'Powerful and flexible message logging mechanism'
