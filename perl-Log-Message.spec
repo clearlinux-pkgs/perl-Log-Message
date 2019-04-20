@@ -4,10 +4,10 @@
 #
 Name     : perl-Log-Message
 Version  : 0.08
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Log-Message-0.08.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Log-Message-0.08.tar.gz
-Summary  : 'Powerful and flexible message logging mechanism'
+Summary  : Powerful and flexible message logging mechanism
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -21,6 +21,7 @@ usage information.
 Summary: dev components for the perl-Log-Message package.
 Group: Development
 Provides: perl-Log-Message-devel = %{version}-%{release}
+Requires: perl-Log-Message = %{version}-%{release}
 
 %description dev
 dev components for the perl-Log-Message package.
