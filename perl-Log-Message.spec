@@ -4,7 +4,7 @@
 #
 Name     : perl-Log-Message
 Version  : 0.08
-Release  : 21
+Release  : 22
 URL      : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Log-Message-0.08.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BI/BINGOS/Log-Message-0.08.tar.gz
 Summary  : 'Powerful and flexible message logging mechanism'
@@ -85,7 +85,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Log/Message.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Log/Message/Config.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Log/Message/Handlers.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Log/Message/Item.pm
+/usr/lib/perl5/*
